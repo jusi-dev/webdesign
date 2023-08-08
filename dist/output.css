@@ -835,6 +835,14 @@ video {
   padding-top: 1.25rem;
 }
 
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .text-left {
   text-align: left;
 }
