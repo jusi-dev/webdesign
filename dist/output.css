@@ -631,6 +631,14 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -951,6 +959,10 @@ video {
 
 .bg-\[length\:160\%\] {
   background-size: 160%;
+}
+
+.bg-\[length\:155\%\] {
+  background-size: 155%;
 }
 
 .bg-center {
