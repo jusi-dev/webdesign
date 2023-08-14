@@ -667,6 +667,10 @@ video {
   height: auto;
 }
 
+.h-\[100vmin\] {
+  height: 100vmin;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -857,6 +861,10 @@ video {
 
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
 }
 
 .text-left {
