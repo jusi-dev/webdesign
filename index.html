@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" class="scroll-smooth">
     <head>
         <meta charset="UTF-8">
         <title>TendrilSites</title>
@@ -54,7 +54,7 @@
                 </div>
                 <h1 class="text-left text-2xl font-semibold text-[#383838]">Mehr Kunden, mehr Wachstum - Entdecken Sie das Potenzial Ihrer neuen Website</h1>
                 <div class="flex flex-row align-middle bg-red h-auto items-center mt-5">
-                    <button class="bg-violet-700 h-[12vw] px-5 text-white rounded-xl font-semibold drop-shadow-lg -mt-[10%] whitespace-pre">Erfahre mehr</button>
+                    <a href="#references"><button class="bg-violet-700 h-[12vw] px-5 text-white rounded-xl font-semibold drop-shadow-lg -mt-[10%] whitespace-pre">Erfahre mehr</button></a>
                     <img src="./img/hero-img.svg" alt="hero-image" class="w-[48vw] -scale-x-100 -mt-10">
                 </div>
             </div>
@@ -62,7 +62,7 @@
 
         <!-- shadow-[-5px_10px_20px_10px_rgba(0,0,0,0.2)] #006DFF mt-24-->
         <!-- mx-7 rounded-xl -->
-        <div class="flex flex-col bg-[#4C4452] pt-10 pb-20 shadow-2xl h-auto">
+        <div class="flex flex-col bg-[#4C4452] pt-10 pb-20 shadow-2xl h-auto scroll-mt-10" id="references">
             <div class="text-center text-white">
                 <h2 class="text-3xl font-bold">Referenzen</h2>
                 <p class="text-xs">Überzeuge dich selbst.</p>
@@ -73,17 +73,17 @@
                 <p></p>
             </div>
             <div class="flex flex-col mx-10 mt-14 justify-center items-center text-white text-center">
-                <img src="./img/greenforce-mockup.png" alt="fundflow" class="rounded-lg">
+                <a href="https://fundflow.justin-winistoerfer.dev"><img src="./img/greenforce-mockup.png" alt="fundflow" class="rounded-lg"></a>
                 <h3 class="text-xl font-bold mt-2">GreenForce</h3>
                 <p></p>
             </div>
             <div class="flex flex-col mx-10 mt-14 justify-center items-center text-white text-center">
-                <img src="./img/portfolio-mockup.png" alt="fundflow" class="rounded-lg">
+                <a href="https://justin-winistoerfer.dev"><img src="./img/portfolio-mockup.png" alt="fundflow" class="rounded-lg"></a>
                 <h3 class="text-xl font-bold mt-2">Persönliches Portfolio</h3>
                 <p></p>
             </div>
             <div class="flex flex-col mx-10 mt-14 justify-center items-center text-white text-center">
-                <img src="./img/fitzone-mockup.png" alt="fundflow" class="rounded-lg">
+                <a href="https://jusi-dev.github.io/fitzone/"><img src="./img/fitzone-mockup.png" alt="fundflow" class="rounded-lg"></a>
                 <h3 class="text-xl font-bold mt-2">FitZone</h3>
                 <p></p>
             </div>
@@ -92,7 +92,7 @@
         <!-- Service section -->
         <!-- mb-8 -->
 
-        <div class="flex flex-col bg-[#F5F5F5] pt-10 pb-20 shadow-xl h-auto">
+        <div class="flex flex-col bg-[#F5F5F5] pt-10 pb-20 shadow-xl h-auto scroll-mt-10" id="services">
             <div class="text-center text-[#383838]">
                 <h2 class="text-3xl font-bold text-[#383838]">Services</h2>
                 <p class="text-xs">Die überzeugen.</p>
@@ -144,5 +144,16 @@
                 </ul>
             </div>
         </div> 
+
+        <div class="flex flex-col bg-[#4C4452] pt-10 pb-20 shadow-2xl h-auto scroll-mt-10" id="about">
+            <div class="text-center text-white">
+                <h2 class="text-3xl font-bold">Über mich</h2>
+                <p class="text-xs">Erfahrener Entwickler.</p>
+            </div>
+            <div class="flex flex-col text-center mx-8 text-white mt-10 justify-center items-center">
+                <div class="rounded-full w-[60vw] h-[60vw] bg-[url('../img/portrait_xs.png')] bg-center bg-no-repeat bg-cover bg-[length:150%]"></div>
+                <h3 class="text-2xl font-semibold mt-6">Justin Winistörfer</h3>
+            </div>
+        </div>
     </body>
 </html>
