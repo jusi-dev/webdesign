@@ -875,6 +875,10 @@ video {
   padding-top: 9rem;
 }
 
+.pt-32 {
+  padding-top: 8rem;
+}
+
 .text-left {
   text-align: left;
 }
