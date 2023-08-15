@@ -27,27 +27,23 @@ function sendForm() {
     emptyInput(email, emailInput);
     emptyInput(message, messageInput);
 
-    var data = {
-        name: name,
-        email: email,
-        message: message
-    };
-
     if (isFormValid) {
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", "/scripts/form.php", true);
-        xhr.setRequestHeader("Content-Type", "application/json");
-        xhr.send(JSON.stringify(data));
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                var response = JSON.parse(xhr.responseText);
-                if (response.status === "success") {
-                    document.getElementById("form").innerHTML = "<h2>Thank you for your message!</h2>";
-                } else {
-                    document.getElementById("form").innerHTML = "<h2>Sorry, there was a problem sending your message.</h2>";
-                }
+        fetch("https://sgwql1eb6l.execute-api.us-east-1.amazonaws.com/test/form", {
+            // Adding method type
+            method: "POST",
+            mode: 'no-cors',
+            // Adding body or contents to send
+            body: JSON.stringify({
+                name: name,
+                email: email,
+                phone: phone,
+                message: message
+            }),
+            // Adding headers to the request
+            headers: {
+                "Content-type": "application/json; charset=UTF-8"
             }
-        };
+        })
 
         const para = document.createElement("p");
         para.classList.add('error', 'text-xl', 'mt-2', 'font-bold')
