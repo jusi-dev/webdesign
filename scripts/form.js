@@ -54,6 +54,7 @@ function sendForm() {
         nameInput.value = ''
         emailInput.value = ''
         messageInput.value = ''
+        phoneInput.value = ''
     }
 }
 
