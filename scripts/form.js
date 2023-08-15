@@ -9,6 +9,7 @@ function sendForm() {
     var name = document.getElementById("fname").value;
     var nameInput = document.getElementById("fname");
     var phone = document.getElementById("number").value;
+    var phoneInput = document.getElementById("number");
     var email = document.getElementById("mail").value;
     var emailInput = document.getElementById("mail");
     var message = document.getElementById("message").value;
