@@ -644,6 +644,10 @@ video {
   margin-top: 0.75rem;
 }
 
+.mt-\[10\%\] {
+  margin-top: 10%;
+}
+
 .block {
   display: block;
 }
@@ -704,6 +708,30 @@ video {
   height: 60vw;
 }
 
+.h-\[10vw\] {
+  height: 10vw;
+}
+
+.h-\[5vh\] {
+  height: 5vh;
+}
+
+.h-\[10vh\] {
+  height: 10vh;
+}
+
+.h-\[20vh\] {
+  height: 20vh;
+}
+
+.h-\[7vh\] {
+  height: 7vh;
+}
+
+.h-\[6vh\] {
+  height: 6vh;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -738,6 +766,30 @@ video {
 
 .w-\[100vw\] {
   width: 100vw;
+}
+
+.w-\[90vw\] {
+  width: 90vw;
+}
+
+.w-\[auto\] {
+  width: auto;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[80vw\] {
+  width: 80vw;
 }
 
 .scale-125 {
@@ -849,6 +901,20 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-\[\#383838\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(56 56 56 / var(--tw-border-opacity));
+}
+
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-\[\#4C4452\] {
@@ -1076,6 +1142,14 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1135,6 +1209,10 @@ video {
   font-weight: 800;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .text-\[\#383838\] {
   --tw-text-opacity: 1;
   color: rgb(56 56 56 / var(--tw-text-opacity));
@@ -1143,6 +1221,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .opacity-0 {
@@ -1230,6 +1313,14 @@ video {
     height: 20vh;
   }
 
+  .md\:h-\[5vw\] {
+    height: 5vw;
+  }
+
+  .md\:w-\[50vw\] {
+    width: 50vw;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1260,6 +1351,14 @@ video {
 
   .lg\:h-auto {
     height: auto;
+  }
+
+  .lg\:h-\[3vw\] {
+    height: 3vw;
+  }
+
+  .lg\:w-\[30vw\] {
+    width: 30vw;
   }
 
   .lg\:px-\[15vw\] {
