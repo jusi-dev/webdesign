@@ -1,3 +1,7 @@
 :root {
     --animate-delay: 0.5s;
 }
+
+.animate__animated.animate__flash {
+    --animate-duration: 2s;
+}
