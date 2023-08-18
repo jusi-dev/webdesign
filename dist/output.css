@@ -1350,6 +1350,14 @@ video {
     margin-right: 25vw;
   }
 
+  .\32xl\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .\32xl\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .\32xl\:h-\[25vw\] {
     height: 25vw;
   }
