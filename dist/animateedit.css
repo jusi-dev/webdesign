@@ -5,3 +5,15 @@
 .animate__animated.animate__flash {
     --animate-duration: 2s;
 }
+
+.animate__animated.animate__fadeIn.animate__slower{
+    --animate-duration: 0.5s;
+}
+.animate__animated.animate__fadeIn.animate__delay-1s{
+    --animate-duration: 0.5s;
+    --animate-delay: 0.8s
+}
+.animate__animated.animate__fadeIn.animate__delay-2s{
+    --animate-duration: 0.5s;
+    --animate-delay: 0.8s
+}
