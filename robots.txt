@@ -1,0 +1,4 @@
+# robots.txt to https://winistoerfer-webdesign.ch/
+
+User-agent: *
+Allow: /
