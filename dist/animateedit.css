@@ -17,3 +17,7 @@
     --animate-duration: 0.5s;
     --animate-delay: 0.8s
 }
+
+.fadeInAni {
+    opacity: 0;
+}
